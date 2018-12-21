@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@ember/optional-features": "^0.7.0",
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^4.2.1",
     "bootstrap-sass": "^3.3.7",
     "broccoli-asset-rev": "^3.0.0",
     "chai": "^4.0.0",
