@@ -639,7 +639,7 @@
   dependencies:
     type-detect "4.0.8"
 
-"@sinonjs/formatio@^3.0.0", "@sinonjs/formatio@^3.1.0":
+"@sinonjs/formatio@^3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@sinonjs/formatio/-/formatio-3.1.0.tgz#6ac9d1eb1821984d84c4996726e45d1646d8cce5"
   dependencies:
@@ -652,10 +652,6 @@
     "@sinonjs/commons" "^1.0.2"
     array-from "^2.1.1"
     lodash.get "^4.4.2"
-
-"@sinonjs/samsam@^2.1.2":
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/@sinonjs/samsam/-/samsam-2.1.3.tgz#62cf2a9b624edc795134135fe37fc2ae8ea36be3"
 
 "@types/acorn@^4.0.3":
   version "4.0.3"
@@ -3420,7 +3416,7 @@ ember-cli-babel@^6.0.0-beta.4, ember-cli-babel@^6.0.0-beta.7, ember-cli-babel@^6
     ember-cli-version-checker "^2.1.2"
     semver "^5.5.0"
 
-ember-cli-babel@^7.0.0, ember-cli-babel@^7.1.0, ember-cli-babel@^7.1.3, ember-cli-babel@^7.1.4, ember-cli-babel@^7.2.0:
+ember-cli-babel@^7.0.0, ember-cli-babel@^7.1.0, ember-cli-babel@^7.1.2, ember-cli-babel@^7.1.3, ember-cli-babel@^7.1.4, ember-cli-babel@^7.2.0:
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-7.2.0.tgz#5c5bd877fb73f6fb198c878d3127ba9e18e9b8a0"
   dependencies:
@@ -4028,12 +4024,13 @@ ember-runtime-enumerable-includes-polyfill@^2.0.0:
     ember-cli-babel "^6.9.0"
     ember-cli-version-checker "^2.1.0"
 
-ember-sinon-qunit@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/ember-sinon-qunit/-/ember-sinon-qunit-3.3.0.tgz#3a388faa4593555bc0fd675daba79dcc7a446a71"
+ember-sinon-qunit@^3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/ember-sinon-qunit/-/ember-sinon-qunit-3.4.0.tgz#6c6ea96273572825e8789c7214e3fd3d9ef4c376"
+  integrity sha512-Xn8+GEkxBNngtfOYy3qo5Mw1m0o3PJgd1/veGU2BdixxWrEd2U5ZolYFxd6vNHM1/EVx5urlDqWl6jeedJr/Xw==
   dependencies:
-    ember-cli-babel "^7.1.0"
-    ember-sinon "~2.2.0"
+    ember-cli-babel "^7.1.2"
+    ember-sinon "~3.1.0"
 
 ember-sinon@^3.0.0:
   version "3.0.0"
@@ -4044,14 +4041,15 @@ ember-sinon@^3.0.0:
     ember-cli-babel "^7.1.3"
     sinon "^7.1.1"
 
-ember-sinon@~2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/ember-sinon/-/ember-sinon-2.2.0.tgz#acb628dec695d6817bd17fd6c25a4d70821851e9"
+ember-sinon@~3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/ember-sinon/-/ember-sinon-3.1.0.tgz#76733aae1cc32c9426202bdc0f5b61552753a7df"
+  integrity sha512-/UARfA4UBlhhmtvk6Vcvj3CH2foThqCORbXiUiQUBISNxqtZFdwGpnJMt4vY8etyArmop18B33UTmZzNKbfhmg==
   dependencies:
     broccoli-funnel "^2.0.0"
     broccoli-merge-trees "^3.0.0"
-    ember-cli-babel "^6.6.0"
-    sinon "^6.0.1"
+    ember-cli-babel "^7.1.3"
+    sinon "^7.1.1"
 
 ember-source-channel-url@^1.0.1, ember-source-channel-url@^1.1.0:
   version "1.1.0"
@@ -6977,7 +6975,7 @@ log-symbols@^2.2.0:
   dependencies:
     chalk "^2.0.1"
 
-lolex@^2.3.2, lolex@^2.7.5:
+lolex@^2.3.2:
   version "2.7.5"
   resolved "https://registry.yarnpkg.com/lolex/-/lolex-2.7.5.tgz#113001d56bfc7e02d56e36291cc5c413d1aa0733"
 
@@ -7500,7 +7498,7 @@ nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
 
-nise@^1.4.5, nise@^1.4.7:
+nise@^1.4.7:
   version "1.4.8"
   resolved "https://registry.yarnpkg.com/nise/-/nise-1.4.8.tgz#ce91c31e86cf9b2c4cac49d7fcd7f56779bfd6b0"
   dependencies:
@@ -9030,20 +9028,6 @@ simple-html-tokenizer@^0.5.6:
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/simple-html-tokenizer/-/simple-html-tokenizer-0.5.7.tgz#8eca336ecfbe2b3c6166cbb31b2682088de79f40"
 
-sinon@^6.0.1:
-  version "6.3.5"
-  resolved "https://registry.yarnpkg.com/sinon/-/sinon-6.3.5.tgz#0f6d6a5b4ebaad1f6e8e019395542d1d02c144a0"
-  dependencies:
-    "@sinonjs/commons" "^1.0.2"
-    "@sinonjs/formatio" "^3.0.0"
-    "@sinonjs/samsam" "^2.1.2"
-    diff "^3.5.0"
-    lodash.get "^4.4.2"
-    lolex "^2.7.5"
-    nise "^1.4.5"
-    supports-color "^5.5.0"
-    type-detect "^4.0.8"
-
 sinon@^7.1.1:
   version "7.2.2"
   resolved "https://registry.yarnpkg.com/sinon/-/sinon-7.2.2.tgz#388ecabd42fa93c592bfc71d35a70894d5a0ca07"
@@ -9836,7 +9820,7 @@ type-detect@0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/type-detect/-/type-detect-0.1.1.tgz#0ba5ec2a885640e470ea4e8505971900dac58822"
 
-type-detect@4.0.8, type-detect@^4.0.0, type-detect@^4.0.5, type-detect@^4.0.8:
+type-detect@4.0.8, type-detect@^4.0.0, type-detect@^4.0.5:
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/type-detect/-/type-detect-4.0.8.tgz#7646fb5f18871cfbb7749e69bd39a6388eb7450c"
 
